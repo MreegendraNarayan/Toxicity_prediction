@@ -4,7 +4,7 @@ A machine learning project for predicting molecular toxicity using both classica
 
 ---
 
-## 🧬 Overview
+## Overview
 
 This repository contains multiple approaches to molecular toxicity prediction, focusing on the Tox21 dataset. It includes:
 
@@ -16,7 +16,7 @@ This repository contains multiple approaches to molecular toxicity prediction, f
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 toxicity-prediction/ 
 ├── data/   # optional metadata or processed data files 
@@ -40,19 +40,12 @@ toxicity-prediction/
 
 ---
 
-## 🚀 Getting Started
-
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/LazyCOMMAnd3r/Toxicity_prediction.git
 cd Toxicity_prediction
-
-pip install -r requirements.txt
-Use Google Colab or Jupyter to explore the notebooks under notebooks/.
-
-See requirements.txt for full list.
-
-🤝 Contributions
+```
+Contributions
 Feel free to open issues, submit pull requests, or suggest new features!
 
 ## Goal
