@@ -46,3 +46,14 @@ toxicity-prediction/
 ```bash
 git clone https://github.com/LazyCOMMAnd3r/Toxicity_prediction.git
 cd Toxicity_prediction
+
+pip install -r requirements.txt
+Use Google Colab or Jupyter to explore the notebooks under notebooks/.
+
+See requirements.txt for full list.
+
+🤝 Contributions
+Feel free to open issues, submit pull requests, or suggest new features!
+
+## Goal
+This project aims to contribute toward ethical AI-driven alternatives to traditional lab-based toxicity testing.
