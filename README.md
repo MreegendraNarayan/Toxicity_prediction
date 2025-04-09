@@ -18,16 +18,7 @@ This repository contains multiple approaches to molecular toxicity prediction, f
 
 ## Project Structure
 
-toxicity-prediction/ 
-├── data/   # optional metadata or processed data files 
-├── notebooks/   # main development notebooks 
-│ ├── 01_baseline_deepchem.ipynb 
-│ ├── 02_gnn_baseline.ipynb 
-│ └── 03_gnn_advanced_features.ipynb 
-├── models/   # trained model files or weights (optional) 
-├── utils/ # helper functions for loading, training, evaluation 
-├── README.md # project overview 
-└── requirements.txt # dependencies
+<pre> ```text toxicity-prediction/ ├── data/ # optional - just metadata (not huge files) ├── notebooks/ │ ├── 01_baseline_deepchem.ipynb │ ├── 02_gnn_baseline.ipynb │ └── 03_gnn_advanced_features.ipynb # (the one we're about to build) ├── models/ # trained model files (optional) ├── utils/ # helper functions ├── README.md └── requirements.txt ``` </pre>
 
 
 ---
