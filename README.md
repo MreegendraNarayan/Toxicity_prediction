@@ -18,7 +18,7 @@ This repository contains multiple approaches to molecular toxicity prediction, f
 
 ## Project Structure
 
-<pre> ```text toxicity-prediction/ 
+<pre> text toxicity-prediction/ 
 ├── data/ # optional - just metadata (not huge files) 
 ├── notebooks/ 
 │ ├── 01_baseline_deepchem.ipynb 
@@ -27,7 +27,7 @@ This repository contains multiple approaches to molecular toxicity prediction, f
 ├── models/ # trained model files (optional) 
 ├── utils/ # helper functions 
 ├── README.md 
-└── requirements.txt ``` </pre>
+└── requirements.txt </pre>
 
 
 ---
