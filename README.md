@@ -39,13 +39,11 @@ This repository contains multiple approaches to molecular toxicity prediction, f
 - [Link to dataset and paper](https://pubs.acs.org/doi/10.1021/ci400187y)
 
 ---
-<!--
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/LazyCOMMAnd3r/Toxicity_prediction.git
 cd Toxicity_prediction
 ```
--->
 Contributions
 Feel free to open issues, submit pull requests, or suggest new features!
 
