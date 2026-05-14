@@ -1,0 +1,63 @@
+# Toxicity Prediction Configuration
+
+# Data settings
+data:
+  data_dir: "./data"
+  target: "NR-AR"
+  split_ratio: [0.7, 0.15, 0.15]  # train, val, test
+  featurization:
+    method: "ecfp"
+    radius: 2
+    nbits: 2048
+  normalization:
+    method: "standard"
+    
+# Model settings
+model:
+  type: "gnn"  # 'baseline' or 'gnn'
+  
+  # Baseline model config
+  baseline:
+    model_type: "rf"  # 'rf', 'xgb', 'neural'
+    random_state: 42
+    
+  # GNN model config
+  gnn:
+    architecture: "gcn"  # 'gcn', 'gat', 'graphsage'
+    hidden_dims: [128, 64]
+    dropout: 0.2
+    learning_rate: 0.001
+    n_layers: 3
+
+# Training settings
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: "adam"
+  early_stopping_patience: 15
+  save_best_model: true
+  
+# Evaluation settings
+evaluation:
+  metrics:
+    - "accuracy"
+    - "roc_auc"
+    - "f1"
+    - "precision"
+    - "recall"
+  threshold: 0.5
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "./logs/training.log"
+
+# Output directories
+output:
+  model_dir: "./models"
+  results_dir: "./results"
+  log_dir: "./logs"
+  
+# Random seed for reproducibility
+random_seed: 42

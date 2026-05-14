@@ -1,0 +1,10 @@
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+logs/
+notebooks/.ipynb_checkpoints/
+*.log
